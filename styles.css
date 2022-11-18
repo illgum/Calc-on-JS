@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  border: black 1px solid;
+  border-radius: 15;
+  background: #eeeeee;
+  position: absolute;
+  width: 868px;
+  height: 525px;
+  left: 286px;
+  top: 249px;
+
+  /* BG [day]/Primary */
+
+  background: #eeeeee;
+  border-radius: 10px;
+}
+
+#input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 24px;
+  padding: 0;
+  width: 820px;
+  height: 69px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 34px;
+  background: #cccbcb;
+  border-radius: 10px;
+}
+
+.numpad_button {
+  width: 70px;
+  height: 54px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+.math_actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 34px;
+}
+
+.math_actions_button {
+  width: 70px;
+  height: 54px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
