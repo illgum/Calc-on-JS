@@ -1,8 +1,7 @@
 .main {
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
-  border: black 1px solid;
+  position: center;
   border-radius: 15;
   background: #eeeeee;
   position: absolute;
@@ -33,10 +32,21 @@
 
 .numpad {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 34px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 56px;
+  margin: 24px 0px 24px 24px;
+  padding: 17px 20px 17px 20px;
+  width: 553px;
+  height: 385px;
   background: #cccbcb;
   border-radius: 10px;
+  /* padding: 20px; */
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 34px;
 }
 
 .numpad_button {
